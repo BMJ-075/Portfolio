@@ -39,4 +39,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 1.  npm install --save-dev prettier
 2.  npm install --save-dev prettier-plugin-tailwindcss
+
 3.  Configure eslint as well
