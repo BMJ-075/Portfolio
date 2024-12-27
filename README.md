@@ -35,11 +35,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-
-
-
-// setting up this project 
+// setting up this project
 
 1.  npm install --save-dev prettier
 2.  npm install --save-dev prettier-plugin-tailwindcss
-3.  Configure eslint as well 
+3.  Configure eslint as well
