@@ -34,6 +34,9 @@ devDependencies:
   eslint-config-next:
     specifier: 15.1.2
     version: 15.1.2(eslint@9.17.0)(typescript@5.7.2)
+  eslint-config-prettier:
+    specifier: ^9.1.0
+    version: 9.1.0(eslint@9.17.0)
   husky:
     specifier: ^9.1.7
     version: 9.1.7
@@ -1795,6 +1798,18 @@ packages:
       - eslint-import-resolver-webpack
       - eslint-plugin-import-x
       - supports-color
+    dev: true
+
+  /eslint-config-prettier@9.1.0(eslint@9.17.0):
+    resolution:
+      {
+        integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==,
+      }
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 9.17.0
     dev: true
 
   /eslint-import-resolver-node@0.3.9:
