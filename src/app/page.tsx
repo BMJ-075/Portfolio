@@ -14,16 +14,16 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-center font-[family-name:var(--font-geist-mono)] text-sm sm:text-left">
           <li className="mb-2">
-            Get started by editing{' '}
+            Jaldi Portfolio Bna bhai. 
             <code className="rounded bg-black/[.05] px-1 py-0.5 font-semibold dark:bg-white/[.06]">
               src/app/page.tsx
             </code>
             .
           </li>
-          <li>Save and see your changes instantly.</li>
+          {/* <li>Save and see your changes instantly.</li> */}
         </ol>
 
-        <div className="flex flex-col items-center gap-4 sm:flex-row">
+        {/* <div className="flex flex-col items-center gap-4 sm:flex-row">
           <a
             className="flex h-10 items-center justify-center gap-2 rounded-full border border-solid border-transparent bg-foreground px-4 text-sm text-background transition-colors hover:bg-[#383838] sm:h-12 sm:px-5 sm:text-base dark:hover:bg-[#ccc]"
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
@@ -47,7 +47,7 @@ export default function Home() {
           >
             Read our docs
           </a>
-        </div>
+        </div> */}
       </main>
       <footer className="row-start-3 flex flex-wrap items-center justify-center gap-6">
         <a
