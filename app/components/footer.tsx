@@ -1,8 +1,6 @@
 import React from 'react';
 
 import Image from 'next/image';
-import LinkedIn from '../../public/socialmedia/linkedin.svg';
-import Github from '../../public/tech/github.webp';
 
 const Footer = () => {
   return (
@@ -13,7 +11,12 @@ const Footer = () => {
             <div className="text-[16px] font-bold">Community</div>
 
             <p className="my-[15px] flex cursor-pointer flex-row items-center">
-              <Image src={Github.src} alt={'linkedIn'} width={20} height={20} />
+              <Image
+                src={'/tech/github.webp'}
+                alt={'linkedIn'}
+                width={20}
+                height={20}
+              />
               <span className="ml-[6px] text-[15px]">Github</span>
             </p>
           </div>
@@ -21,7 +24,7 @@ const Footer = () => {
             <div className="text-[16px] font-bold">Social Media</div>
             <p className="my-[15px] flex cursor-pointer flex-row items-center">
               <Image
-                src={LinkedIn.src}
+                src={'/socialmedia/linkedin.svg'}
                 alt={'linkedIn'}
                 width={20}
                 height={20}
