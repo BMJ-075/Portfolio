@@ -1,10 +1,5 @@
 'use client';
-import {
-  Backend_skill,
-  Frontend_skill,
-  Full_stack,
-  Skill_data,
-} from '@/app/constants';
+import { Backend_skill, Frontend_skill, Full_stack } from '@/app/constants';
 import { motion } from 'framer-motion';
 import React from 'react';
 import Image from 'next/image';
@@ -43,7 +38,7 @@ const SkillsImage = ({ src, width, height, index }: SkillsImageProps) => {
 const Skills = () => {
   return (
     <section
-      className="relative flex h-full flex-col items-center justify-center gap-3 overflow-hidden py-20 pb-80"
+      className="relative flex h-full flex-col items-center justify-center gap-3 overflow-hidden py-20 pb-44"
       id="skills"
       style={{ transform: 'scale(0.9)' }}
     >
