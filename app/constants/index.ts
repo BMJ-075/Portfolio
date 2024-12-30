@@ -238,3 +238,18 @@ export const Full_stack = [
     height: 70,
   },
 ];
+
+export const navLinks = [
+  {
+    id: 'about',
+    title: 'About',
+  },
+  {
+    id: 'work',
+    title: 'Work',
+  },
+  {
+    id: 'contact',
+    title: 'Contact',
+  },
+];

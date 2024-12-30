@@ -57,7 +57,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col-reverse gap-10 overflow-hidden xl:mt-4 xl:flex-row">
+    <div
+      className="flex flex-col-reverse gap-10 overflow-hidden xl:mt-4 xl:flex-row"
+      id={'contact'}
+    >
       <motion.div
         initial="hidden"
         whileInView="visible"
