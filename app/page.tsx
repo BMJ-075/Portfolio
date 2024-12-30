@@ -1,4 +1,5 @@
 import { Hero } from './components';
+import StarCanvas from './components/canvas/starCanvas';
 import Skills from './components/Skills';
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
         <Hero />
       </div>
+      <StarCanvas />
       <Skills />
     </div>
   );
