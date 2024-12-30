@@ -1,5 +1,6 @@
 import { Hero } from './components';
 import StarCanvas from './components/canvas/starCanvas';
+import Contact from './components/contact';
 import Skills from './components/Skills';
 
 export default function Home() {
@@ -10,6 +11,9 @@ export default function Home() {
       </div>
       <StarCanvas />
       <Skills />
+      <div className="relative z-0">
+        <Contact />
+      </div>
     </div>
   );
 }
