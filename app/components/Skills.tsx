@@ -39,7 +39,7 @@ const SkillsImage = ({ src, width, height, index }: SkillsImageProps) => {
 const Skills = () => {
   return (
     <section
-      className="relative flex h-full flex-col items-center justify-center gap-3 overflow-hidden py-20 pb-44"
+      className="relative flex h-full flex-col items-center justify-center gap-3 overflow-hidden py-20 pb-20"
       id="skills"
       style={{ transform: 'scale(0.9)' }}
     >

@@ -1,5 +1,6 @@
 import { Hero } from './components';
 import Contact from './components/contact';
+import Experience from './components/Experience';
 import Footer from './components/footer';
 import Navbar from './components/Header';
 import Projects from './components/projects';
@@ -14,6 +15,7 @@ export default function Home() {
       </div>
       <Skills />
       <Projects />
+      <Experience />
       <div className="relative z-0">
         <Contact />
       </div>
