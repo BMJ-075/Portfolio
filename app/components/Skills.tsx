@@ -29,6 +29,7 @@ const SkillsImage = ({ src, width, height, index }: SkillsImageProps) => {
         visible: { opacity: 1, scale: 1 },
         hidden: { opacity: 0, scale: 0 },
       }}
+      whileHover={{ scale: 2 }}
     >
       <Image src={src} width={width} height={height} alt="skill image" />
     </motion.div>

@@ -38,11 +38,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <Link href="https://github.com/omunite215">
+          <Link href="https://github.com/BMJ-075">
             <Image
-              src="/logo.png"
-              width={80}
-              height={80}
+              src="/favicon.png"
+              width={40}
+              height={40}
               alt="logo"
               priority
               className="object-contain"
@@ -55,7 +55,6 @@ const Navbar = () => {
 
         <ul className="hidden list-none flex-row gap-10 sm:flex">
           {navLinks.map((nav) => (
-            // biome-ignore lint/a11y/useKeyWithClickEvents: <explanation>
             <li
               key={nav.id}
               className={`${
@@ -85,7 +84,6 @@ const Navbar = () => {
           >
             <ul className="flex flex-1 list-none flex-col items-start justify-end gap-4">
               {navLinks.map((nav) => (
-                // biome-ignore lint/a11y/useKeyWithClickEvents: <explanation>
                 <li
                   key={nav.id}
                   className={`font-poppins cursor-pointer text-[16px] font-medium ${

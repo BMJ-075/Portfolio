@@ -172,7 +172,7 @@ export const Backend_skill = [
   },
   {
     skill_name: 'Mongo db',
-    Image: '/images/html.png',
+    Image: '/images/mongodb.png',
     width: 40,
     height: 40,
   },
