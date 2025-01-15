@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Poppins as FontSans } from 'next/font/google';
 import '@/app/styles/globals.css';
+import StarCanvas from './components/canvas/starCanvas';
 
 const fontSans = FontSans({
   subsets: ['latin'],
@@ -19,7 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={fontSans.variable}>{children}</body>
+      <body
+        className={`${fontSans.variable} overflow-x-hidden overflow-y-scroll bg-[#030014]`}
+      >
+        <StarCanvas />
+        {children}
+      </body>
     </html>
   );
 }
