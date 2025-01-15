@@ -9,13 +9,13 @@ interface Props {
 
 const ProjectCard = ({ src, title, description }: Props) => {
   return (
-    <div className="relative overflow-hidden rounded-lg border border-[#2A0E61] shadow-lg">
+    <div className="relative max-w-96 overflow-hidden rounded-lg border border-[#2A0E61] shadow-lg">
       <Image
         src={src}
         alt={title}
         width={1000}
         height={1000}
-        className="w-full object-contain"
+        className="max-h-52 w-full object-cover"
       />
       <div className="relative p-4">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
@@ -31,24 +31,26 @@ const Projects = () => {
       className="flex flex-col items-center justify-center py-20"
       id="projects"
     >
-      <h1 className="bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text py-20 text-[40px] font-semibold text-transparent">
+      <h1 className="bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text py-20 text-6xl font-semibold text-transparent">
         My Projects
       </h1>
-      <div className="flex h-full w-full flex-col gap-10 px-10 md:flex-row">
+      <div className="flex h-full w-full flex-col justify-center gap-10 px-10 md:flex-row">
         <ProjectCard
-          src="/FigmaClone.png"
-          title="Figma Clone"
-          description="Figma Clone using Next.js 14, Tailwind CSS, Liveblocks,Fabric"
+          src="/ebotify.png"
+          title="Ebotify"
+          description={`It is a customer support platform, specializing in chatbot development, analytics, and live chat. With the ability
+to train and deploy chatbots for websites, execute WhatsApp marketing campaigns, and manage multi-channel
+support across platforms like Teams, Slack, SMS, Twilio, hubspot and huli.`}
         />
         <ProjectCard
-          src="/TravelWebsite.png"
-          title="Travel Website"
-          description="Travel Website Using Next.js 14, Tailwind CSS, TypeScript"
+          src="/ebotifyChatbot.png"
+          title="Web Chatbot"
+          description="Developed a dynamic web bot with a customizable UI that can be modified through a console interface , and seamless live agent connectivity through socket.io"
         />
         <ProjectCard
-          src="/YoutubeClone.png"
-          title="Youtube Clone"
-          description="Youtube Clone Using React, Tailwind CSS, TypeScript"
+          src="/mycityhunt.png"
+          title="My City Hunt"
+          description="a city based travel and treasure hunt game website build with next js and tailwind."
         />
       </div>
     </div>

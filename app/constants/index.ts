@@ -231,3 +231,32 @@ export const navLinks = [
     title: 'Contact',
   },
 ];
+
+export const experiences = [
+  {
+    title: 'Software Developer',
+    company_name: 'Mindpath Technologies',
+    icon: '/mindpath.png',
+    iconBg: '#ffffff',
+    date: '2022 Dec - Present',
+    points: [
+      'Migrated complete web application from ReactJs to NextJs',
+      'Enhanced efficiency of web application by 35% using React Suspense, Tree Shaking methodology and Dynamic Import and cut down the initial bundle size by 50%.',
+      'Developed and implemented a robust RBAC system for secure access management in a web application assigning roles based on user responsibilities and permissions.',
+      'Implemented a feature using Next.js which helps in dynamic page creation on customer’s request for Analytics and reduced dev efforts by 80% through creating reusable templates.',
+      'Developed and lead team in implementing core logic of Live Chat app with socket io.',
+    ],
+  },
+  {
+    title: 'Programmer Analyst trainee',
+    company_name: 'Cognizant',
+    icon: '/CTSH.png',
+    iconBg: '#ffffff',
+    date: '2022 Jan - 2022 Dec',
+    points: [
+      'Groomed on Reactjs, nodejs , MySQL , devops concepts , AWS , Genesis.',
+      'Hands- on VOIP systems for displaying analytic inbound and outbound data on dashboard.',
+      'Worked on Java and spring boots along with Genesys.',
+    ],
+  },
+];
